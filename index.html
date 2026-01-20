@@ -8,58 +8,97 @@
 </head>
 <body>
 
-  <header>
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
     <h1>Olalemi John</h1>
-    <p>
-      Data Scientist | Machine Learning Engineer | AI Engineer
+    <p class="subtitle">
+      Data Scientist • Machine Learning Engineer • AI Engineer
     </p>
-    <p>
-      <a href="https://www.linkedin.com/in/john-olalemi" target="_blank">LinkedIn</a> |
-      <a href="https://www.github.com/Johnnysnipes90" target="_blank">GitHub</a> |
+
+    <div class="links">
+      <a href="https://www.linkedin.com/in/john-olalemi" target="_blank">LinkedIn</a>
+      <a href="https://www.github.com/Johnnysnipes90" target="_blank">GitHub</a>
       <a href="https://drive.google.com/file/d/1Hizj1Ygnou4dyTCpYrD2M3s4SNUfIjey/view"
-         target="_blank">Resume</a>
-    </p>
+         target="_blank" class="resume-btn">Resume</a>
+    </div>
   </header>
 
-  <section>
+  <!-- ================= ABOUT ================= -->
+  <section class="section">
     <h2>About Me</h2>
     <p>
-      I am a Data Scientist and Machine Learning Engineer with a strong foundation
-      in Statistics and Computer Engineering. I build end-to-end data science and
-      machine learning solutions focused on solving real business problems — from
-      analytics and insights to production-ready ML systems.
+      I am a <strong>Data Scientist and Machine Learning Engineer</strong> with a strong
+      foundation in <strong>Statistics and Computer Engineering</strong>. I specialize in
+      building <strong>end-to-end, business-driven data solutions</strong> — from exploratory
+      analysis and dashboards to production-ready machine learning systems.
     </p>
     <p>
-      I am currently expanding into AI Engineering, working with modern tools such
-      as LLMs, RAG systems, and ML deployment frameworks.
+      I am currently expanding into <strong>AI Engineering</strong>, working with modern tools
+      such as <strong>LLMs, RAG systems, and ML deployment frameworks</strong>, while maintaining
+      strong statistical rigor and engineering best practices.
     </p>
   </section>
 
-  <section>
+  <!-- ================= PROJECTS ================= -->
+  <section class="section">
     <h2>Featured Projects</h2>
-    <ul>
-      <li>
-        <strong>Retail Sales BI & Forecasting System</strong><br />
-        Python, SQL, Power BI, Time Series Forecasting<br />
-        <a href="https://github.com/olalemijohn/retail-sales-bi-dashboard" target="_blank">
-          View on GitHub
-        </a>
-      </li>
 
-      <br />
+    <div class="projects-grid">
 
-      <li>
-        <strong>Fraud Detection Machine Learning System</strong><br />
-        Scikit-learn, MLflow, Imbalanced Learning<br />
-        <a href="https://github.com/olalemijohn/fraud-detection-ml" target="_blank">
-          View on GitHub
+      <!-- Project 1 -->
+      <div class="project-card">
+        <h3>📊 Retail Sales Business Intelligence Dashboard</h3>
+        <p class="project-meta">Business Intelligence • 2025</p>
+        <p>
+          Developed a multi-page Power BI dashboard analyzing sales, profit, customer behavior,
+          and operational performance to support executive decision-making. Built a star-schema
+          data model and implemented standardized KPIs with time-intelligence measures.
+        </p>
+        <p class="tech"><strong>Tech:</strong> Power BI, SQL, DAX, Python</p>
+        <a href="https://github.com/Johnnysnipes90/retail-sales-bi-dashboard" target="_blank">
+          View GitHub →
         </a>
-      </li>
-    </ul>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <h3>🎬 Movie Licensing Revenue Category Prediction</h3>
+        <p class="project-meta">Machine Learning Pipeline • 2025</p>
+        <p>
+          Built an end-to-end ML pipeline to classify movies into
+          <strong>High</strong> vs <strong>Low</strong> licensing revenue categories.
+          Performed data profiling, leakage-safe preprocessing, feature engineering,
+          and 5-fold stratified cross-validation. Final model achieved
+          <strong>F1 ≈ 0.90</strong>.
+        </p>
+        <p class="tech"><strong>Tech:</strong> Python, Scikit-learn, Feature Engineering, ML Evaluation</p>
+        <a href="https://github.com/Johnnysnipes90/Movie-revenue-prediction" target="_blank">
+          View GitHub →
+        </a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <h3>📉 Customer Churn Analysis (Telecom)</h3>
+        <p class="project-meta">Analytics & Predictive Modeling • 2024</p>
+        <p>
+          Analyzed telecom churn patterns to identify behavioral and contractual drivers
+          of customer attrition. Trained and evaluated Logistic Regression, Decision Tree,
+          and Random Forest models, and translated churn risk factors into
+          actionable retention strategies.
+        </p>
+        <p class="tech"><strong>Tech:</strong> Python, Pandas, SQL, Scikit-learn</p>
+        <a href="https://github.com/Johnnysnipes90/telco-churn-analytics" target="_blank">
+          View GitHub →
+        </a>
+      </div>
+
+    </div>
   </section>
 
-  <footer>
-    <p>© 2026 Olalemi John</p>
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <p>© 2026 Olalemi John • Data Science & Machine Learning Portfolio</p>
   </footer>
 
 </body>
