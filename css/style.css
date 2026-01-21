@@ -17,6 +17,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.muted {
+  color: #6b7280;
+}
+
+.tiny {
+  font-size: 0.9rem;
+  margin-top: 18px;
+}
+
 /* ================= HEADER ================= */
 .site-header {
   background: #ffffff;
@@ -48,7 +57,7 @@ a:hover {
 .resume-btn {
   padding: 8px 14px;
   border: 1px solid #2563eb;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .resume-btn:hover {
@@ -69,6 +78,57 @@ a:hover {
   margin-bottom: 20px;
   border-bottom: 2px solid #e5e7eb;
   padding-bottom: 8px;
+}
+
+/* ================= RESUME GRID (UPGRADE) ================= */
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.resume-card {
+  display: block;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 18px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resume-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+}
+
+.resume-card-top {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 12px;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid #dbeafe;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+.resume-card h3 {
+  margin: 0 0 6px 0;
+  font-size: 1.15rem;
+  color: #111827;
+}
+
+.resume-cta {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 700;
 }
 
 /* ================= PROJECTS ================= */
